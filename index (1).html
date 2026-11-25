@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>FreeLearn Hub — ফ্রি কোর্স, বই ও সফটওয়্যার</title>
+<meta name="description" content="বিশ্বের ফ্রি কোর্স, বই, ইউটিউব চ্যানেল ও সফটওয়্যার এক জায়গায়। বাংলা, English, हिन्दी, اردو।">
+<meta name="theme-color" content="#2E2A5E">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap bar">
+    <a class="brand" href="./" aria-label="FreeLearn Hub">
+      <span class="mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 6.5C5.5 5 8.5 5 12 6.8 15.5 5 18.5 5 21 6.5V19c-2.5-1.5-5.5-1.5-9 .3-3.5-1.8-6.5-1.8-9-.3z"/><path d="M12 6.8V19.3"/></svg></span>
+      <span id="brand">FreeLearn Hub</span>
+    </a>
+    <div class="tools">
+      <div class="seg" id="langSeg" role="group" aria-label="Language"></div>
+      <button class="icon" id="themeBtn" type="button" aria-label="Theme"></button>
+      <button class="icon" id="shareBtn" type="button" aria-label="Share"></button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <p class="kicker" id="tag"></p>
+    <h1 id="h1"></h1>
+    <label class="search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16.5 16.5 4 4"/></svg>
+      <input id="q" type="search" autocomplete="off" enterkeyhint="search">
+    </label>
+  </section>
+
+  <section class="stats" id="stats" aria-label="Counts"></section>
+
+  <section class="toolbar">
+    <div class="tabs" id="tabs" role="tablist"></div>
+    <button class="saved" id="savedBtn" type="button" aria-pressed="false"></button>
+  </section>
+
+  <div class="cats" id="cats" role="group" aria-label="Categories"></div>
+  <p class="meta" id="meta" aria-live="polite"></p>
+
+  <ul class="list" id="list"></ul>
+  <button class="more" id="more" type="button" hidden></button>
+
+  <section class="get" aria-labelledby="getT">
+    <div class="get-text">
+      <h2 id="getT"></h2>
+      <p id="getP"></p>
+    </div>
+    <a class="btn" id="getA" href="https://github.com/sbd-r/freelearn-hub/releases/latest/download/freelearn-release.apk" rel="noopener"></a>
+  </section>
+
+  <p class="disc" id="disc"></p>
+</main>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<script src="labels.js"></script>
+<script src="data.js"></script>
+<script src="data2a.js"></script>
+<script src="data2b.js"></script>
+<script src="data3.js"></script>
+<script src="data4.js"></script>
+<script src="data5.js"></script>
+<script src="data6.js"></script>
+<script src="site.js"></script>
+</body>
+</html>
