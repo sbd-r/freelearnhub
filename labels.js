@@ -69,3 +69,8 @@ Object.assign(CAT, {
  bcs:{bn:"বিসিএস",en:"BCS",hi:"बीसीएस",ur:"بی سی ایس"},
  hist:{bn:"ইতিহাস",en:"History",hi:"इतिहास",ur:"تاریخ"}
 });
+
+Object.assign(CAT, {
+ misc:{bn:"বিবিধ",en:"Miscellaneous",hi:"विविध",ur:"متفرقہ"}
+});
+  
