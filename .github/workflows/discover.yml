@@ -1,48 +1,32 @@
-// FreeLearn Hub — finds new free books from open, public APIs and adds them to data.json.
-// Only sources with a public API are used (no search-engine or site scraping).
-// Courses and scholarships are NOT added automatically (no reliable open API); see pending.json.
-import { readFileSync, writeFileSync } from "node:fs";
+name: Find new free books (weekly)
 
-const DATA = "data.json";
-const MAX_NEW = 40;      // per run
-const UA = "Mozilla/5.0 (compatible; FreeLearnHubBot/1.0; +https://sbd-r.github.io/freelearnhub/)";
+on:
+  schedule:
+    - cron: "0 4 * * 1"   # Monday 10:00 Bangladesh time
+  workflow_dispatch:
 
-const items = JSON.parse(readFileSync(DATA, "utf8"));
-const have = new Set(items.map((x) => x[3]));
-const added = [];
+permissions:
+  contents: write
 
-async function getJSON(url) {
-  const r = await fetch(url, { headers: { "user-agent": UA, accept: "application/json" }, signal: AbortSignal.timeout(20000) });
-  if (!r.ok) throw new Error(`${r.status} ${url}`);
-  return r.json();
-}
-function push(name, url) {
-  if (!name || !url || have.has(url) || added.length >= MAX_NEW) return;
-  have.add(url);
-  added.push(["b", "misc", String(name).slice(0, 140), url]);
-}
-
-// 1) Project Gutenberg (public-domain books) through the Gutendex API
-for (const topic of ["science", "history", "philosophy", "economics", "mathematics", "computer"]) {
-  try {
-    const j = await getJSON(`https://gutendex.com/books/?languages=en&topic=${encodeURIComponent(topic)}`);
-    for (const b of (j.results || []).slice(0, 10)) {
-      const author = b.authors && b.authors[0] && b.authors[0].name;
-      push(author ? `${b.title} — ${author}` : b.title, `https://www.gutenberg.org/ebooks/${b.id}`);
-    }
-  } catch (e) { console.log("gutendex", topic, "-", e.message); }
-}
-
-// 2) Open Library (books with free full text)
-for (const subject of ["programming", "economics", "history", "physics"]) {
-  try {
-    const j = await getJSON(`https://openlibrary.org/search.json?subject=${encodeURIComponent(subject)}&has_fulltext=true&limit=10&fields=key,title,author_name`);
-    for (const d of j.docs || []) {
-      const author = d.author_name && d.author_name[0];
-      push(author ? `${d.title} — ${author}` : d.title, `https://openlibrary.org${d.key}`);
-    }
-  } catch (e) { console.log("openlibrary", subject, "-", e.message); }
-}
-
-if (added.length) writeFileSync(DATA, JSON.stringify(items.concat(added)));
-console.log(`added ${added.length} new books`);
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Find new books
+        run: node scripts/discover.mjs
+      - name: Save changes
+        run: |
+          git config user.name "freelearn-bot"
+          git config user.email "noreply@github.com"
+          git add data.json
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "Discover $(date -u +%F): add new books"
+            git pull --rebase
+            git push
+          fi
