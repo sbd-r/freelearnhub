@@ -27,5 +27,7 @@ jobs:
             echo "no changes"
           else
             git commit -m "Link check $(date -u +%F): update data"
+            git pull --rebase
             git push
           fi
+          
