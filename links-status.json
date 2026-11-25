@@ -1,41 +1,5 @@
 {
- "https://www.w3schools.com/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
- "https://www.deeplearning.ai/short-courses/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
  "https://www.kaggle.com/learn": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
- "https://learnenglish.britishcouncil.org/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
- "https://www.canva.com/designschool/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
- "https://smarthistory.org/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
- "https://online.stanford.edu/free-courses": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
- "https://www.open.edu/openlearn/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
- "https://www.udemy.com/courses/free/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
- "https://10minuteschool.com/": {
   "fails": 1,
   "lastDay": "2026-11-25"
  },
@@ -47,23 +11,7 @@
   "fails": 1,
   "lastDay": "2026-11-25"
  },
- "https://www.hathitrust.org/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
- "https://doaj.org/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
- "https://mitpress.mit.edu/open-access/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
  "https://www.core-econ.org/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
- "https://mitpress.mit.edu/sites/default/files/sicp/index.html": {
   "fails": 1,
   "lastDay": "2026-11-25"
  },
@@ -71,31 +19,11 @@
   "fails": 1,
   "lastDay": "2026-11-25"
  },
- "https://www.feynmanlectures.caltech.edu/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
  "https://nctb.gov.bd/": {
   "fails": 1,
   "lastDay": "2026-11-25"
  },
- "https://nextcloud.com/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
- "https://inkscape.org/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
- "https://www.blender.org/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
  "https://www.hackerrank.com/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
- "https://leetcode.com/": {
   "fails": 1,
   "lastDay": "2026-11-25"
  },
@@ -111,35 +39,7 @@
   "fails": 1,
   "lastDay": "2026-11-25"
  },
- "https://www.investor.gov/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
- "https://inkscape.org/learn/tutorials/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
- "https://www.metmuseum.org/learn": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
- "https://plantwiseplusknowledgebank.org/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
  "https://www.ets.org/toefl/test-takers/ibt/prepare.html": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
- "https://www.europeana.eu/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
- "https://www.loc.gov/books/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
- "https://library.si.edu/": {
   "fails": 1,
   "lastDay": "2026-11-25"
  },
@@ -151,15 +51,7 @@
   "fails": 1,
   "lastDay": "2026-11-25"
  },
- "https://www.investopedia.com/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
  "https://en.childrenslibrary.org/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
- "https://www.worldhistory.org/": {
   "fails": 1,
   "lastDay": "2026-11-25"
  },
@@ -203,19 +95,11 @@
   "fails": 1,
   "lastDay": "2026-11-25"
  },
- "https://www.cloudflare.com/learning/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
  "https://digiskills.pk/": {
   "fails": 1,
   "lastDay": "2026-11-25"
  },
  "https://play.google.com/store/apps/details?id=com.brainly": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
- "https://www.winehq.org/": {
   "fails": 1,
   "lastDay": "2026-11-25"
  },
@@ -227,27 +111,11 @@
   "fails": 1,
   "lastDay": "2026-11-25"
  },
- "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
- "https://academy.langchain.com/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
  "https://www.nctb.gov.bd/": {
   "fails": 1,
   "lastDay": "2026-11-25"
  },
- "https://www.cu.ac.bd/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
  "https://www.ets.org/gre.html": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
- "https://study-uk.britishcouncil.org/": {
   "fails": 1,
   "lastDay": "2026-11-25"
  },
@@ -260,14 +128,6 @@
   "lastDay": "2026-11-25"
  },
  "https://bbs.gov.bd/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
- "https://dictionary.cambridge.org/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
- "https://learnenglish.britishcouncil.org/grammar": {
   "fails": 1,
   "lastDay": "2026-11-25"
  },
@@ -295,10 +155,6 @@
   "fails": 1,
   "lastDay": "2026-11-25"
  },
- "https://www.sust.edu/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
  "https://www.kuet.ac.bd/": {
   "fails": 1,
   "lastDay": "2026-11-25"
@@ -323,14 +179,6 @@
   "fails": 1,
   "lastDay": "2026-11-25"
  },
- "https://www.bracu.ac.bd/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
- "https://www.northsouth.edu/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
  "https://www.iub.edu.bd/": {
   "fails": 1,
   "lastDay": "2026-11-25"
@@ -343,14 +191,6 @@
   "fails": 1,
   "lastDay": "2026-11-25"
  },
- "https://learninglab.si.edu/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
- "https://claude.ai/": {
-  "fails": 1,
-  "lastDay": "2026-11-25"
- },
  "https://gemini.google.com/": {
   "fails": 1,
   "lastDay": "2026-11-25"
@@ -359,7 +199,11 @@
   "fails": 1,
   "lastDay": "2026-11-25"
  },
- "https://scholar.google.com/": {
+ "https://zenodo.org/": {
+  "fails": 1,
+  "lastDay": "2026-11-25"
+ },
+ "http://bdlaws.minlaw.gov.bd/": {
   "fails": 1,
   "lastDay": "2026-11-25"
  }
