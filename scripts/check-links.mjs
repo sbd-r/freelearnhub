@@ -21,8 +21,9 @@ async function ok(url) {
     try {
       const r = await fetch(url, { method, redirect: "follow", signal: ctl.signal, headers: { "user-agent": UA, accept: "text/html,*/*" } });
       if (r.body && method === "GET") { try { await r.body.cancel(); } catch (e) {} }
-      if (r.status < 400) return true;
-      if (r.status !== 405 && r.status !== 403 && r.status !== 501) return false;
+      // 2xx/3xx = fine. 403/401/429 = the site is up but blocks bots: count it as alive.
+      if (r.status < 400 || r.status === 401 || r.status === 403 || r.status === 429) return true;
+      if (r.status !== 405 && r.status !== 501) return false;
     } catch (e) {
       // try GET after HEAD failure
     } finally { clearTimeout(timer); }
@@ -68,4 +69,3 @@ if (failShare > MAX_FAIL_SHARE) {
 writeFileSync(STATE, JSON.stringify(state, null, 1));
 console.log(`checked ${items.length}, failing today ${failed}, removed ${removed.length}`);
 if (removed.length) console.log(removed.join("\n"));
-          
