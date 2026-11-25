@@ -34,7 +34,9 @@
   };
   if (!UI[S.lang]) S.lang = UI[guess] ? guess : "bn";
 
-  var ALL = ITEMS.map(function (x) { return { t: x[0], c: x[1], n: x[2], u: x[3] }; });
+  function toRows(list) { return list.map(function (x) { return { t: x[0], c: x[1], n: x[2], u: x[3] }; }); }
+  /* start with the built-in list, then switch to data.json (kept up to date by the link checker) */
+  var ALL = toRows(ITEMS);
 
   function L(k) { return (UI[S.lang] || UI.bn)[k]; }
   function typeName(t) { return (T[S.lang] || T.bn)[t] || t; }
@@ -205,4 +207,10 @@
 
   applyTheme();
   paintAll();
+  /* the newest list is always fetched from the website; the app therefore gets new items without a rebuild */
+  var DATA_REMOTE = "https://sbd-r.github.io/freelearnhub/data.json";
+  function getJSON(u) { return fetch(u, { cache: "no-cache" }).then(function (r) { if (!r.ok) throw new Error("data"); return r.json(); }); }
+  getJSON(DATA_REMOTE).catch(function () { return getJSON("data.json"); })
+    .then(function (list) { if (Array.isArray(list) && list.length) { ALL = toRows(list); paintAll(); } })
+    .catch(function () {});
 })();
