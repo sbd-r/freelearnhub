@@ -1,238 +1,54 @@
 {
- "https://www.kaggle.com/learn": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://www.muktopaath.gov.bd/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://www.gutenberg.org/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://www.core-econ.org/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://www.people.vcu.edu/~rhammack/BookofProof3/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://nctb.gov.bd/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://www.hackerrank.com/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://www.learnpython.org/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://www.exploratorium.edu/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://academy.ahrefs.com/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://www.ets.org/toefl/test-takers/ibt/prepare.html": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://hesperian.org/books-and-resources/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://en.childrenslibrary.org/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://pakistancode.gov.pk/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://banglaacademy.org.bd/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://www.bcc.gov.bd/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://nsda.gov.bd/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://www.bmet.gov.bd/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://dyd.gov.bd/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://seip-fd.gov.bd/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://www.dae.gov.bd/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://smef.gov.bd/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://digiskills.pk/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://play.google.com/store/apps/details?id=com.brainly": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://www.youtube.com/@TheNetNinja": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://www.youtube.com/@nptelhrd": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://www.nctb.gov.bd/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://www.ets.org/gre.html": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://bpsc.gov.bd/sites/default/files/files/bpsc.portal.gov.bd/psc_exam/93992bad_97b2_4d13_84eb_902cc36f2d5f/SYLLABUS%20FOR%20BCS%20PRILIMINARY%20TEST.pdf": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://bpsc.gov.bd/sites/default/files/files/bpsc.portal.gov.bd/psc_exam/3c11cd64_6370_4e04_be9a_60f82b085597/SYLLABUS%20FOR%20BCS%20(WRITTEN)%20EXAMINATION.pdf": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://bbs.gov.bd/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://bpsc.teletalk.com.bd/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://www.parliament.gov.bd/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://plancomm.gov.bd/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://www.police.gov.bd/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://dpe.gov.bd/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://collegeadmission.eis.du.ac.bd/en/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://www.kuet.ac.bd/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://www.bou.edu.bd/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://dgme.gov.bd/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://www.bsmmu.edu.bd/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://www.xiclassadmission.gov.bd/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://bdadmissions.com/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://www.iub.edu.bd/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://www.campuschina.org/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://www.educationboard.gov.bd/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://gemini.google.com/": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
- "https://www.youtube.com/@WelchLabsVideo": {
-  "fails": 2,
-  "lastDay": "2026-11-26"
- },
  "https://www.imf.org/en/Capacity-Development/training": {
-  "fails": 1,
-  "lastDay": "2026-11-26"
+  "fails": 2,
+  "lastDay": "2026-11-27"
  },
  "https://www.gutenberg.org/ebooks/67979": {
-  "fails": 1,
-  "lastDay": "2026-11-26"
+  "fails": 2,
+  "lastDay": "2026-11-27"
  },
  "https://www.gutenberg.org/ebooks/1184": {
-  "fails": 1,
-  "lastDay": "2026-11-26"
+  "fails": 2,
+  "lastDay": "2026-11-27"
  },
  "https://www.gutenberg.org/ebooks/174": {
-  "fails": 1,
-  "lastDay": "2026-11-26"
+  "fails": 2,
+  "lastDay": "2026-11-27"
  },
  "https://www.gutenberg.org/ebooks/98": {
-  "fails": 1,
-  "lastDay": "2026-11-26"
+  "fails": 2,
+  "lastDay": "2026-11-27"
  },
  "https://www.gutenberg.org/ebooks/2600": {
-  "fails": 1,
-  "lastDay": "2026-11-26"
+  "fails": 2,
+  "lastDay": "2026-11-27"
  },
  "https://www.gutenberg.org/ebooks/1259": {
-  "fails": 1,
-  "lastDay": "2026-11-26"
+  "fails": 2,
+  "lastDay": "2026-11-27"
  },
  "https://www.gutenberg.org/ebooks/1232": {
-  "fails": 1,
-  "lastDay": "2026-11-26"
+  "fails": 2,
+  "lastDay": "2026-11-27"
  },
  "https://www.gutenberg.org/ebooks/3207": {
-  "fails": 1,
-  "lastDay": "2026-11-26"
+  "fails": 2,
+  "lastDay": "2026-11-27"
  },
  "https://www.gutenberg.org/ebooks/23": {
-  "fails": 1,
-  "lastDay": "2026-11-26"
+  "fails": 2,
+  "lastDay": "2026-11-27"
  },
  "https://www.gutenberg.org/ebooks/25344": {
+  "fails": 2,
+  "lastDay": "2026-11-27"
+ },
+ "https://www.poetryfoundation.org/": {
   "fails": 1,
-  "lastDay": "2026-11-26"
+  "lastDay": "2026-11-27"
+ },
+ "https://learn.mongodb.com/": {
+  "fails": 1,
+  "lastDay": "2026-11-27"
  }
 }
