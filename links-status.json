@@ -1,54 +1,10 @@
 {
- "https://www.imf.org/en/Capacity-Development/training": {
-  "fails": 2,
-  "lastDay": "2026-11-27"
- },
- "https://www.gutenberg.org/ebooks/67979": {
-  "fails": 2,
-  "lastDay": "2026-11-27"
- },
- "https://www.gutenberg.org/ebooks/1184": {
-  "fails": 2,
-  "lastDay": "2026-11-27"
- },
- "https://www.gutenberg.org/ebooks/174": {
-  "fails": 2,
-  "lastDay": "2026-11-27"
- },
- "https://www.gutenberg.org/ebooks/98": {
-  "fails": 2,
-  "lastDay": "2026-11-27"
- },
- "https://www.gutenberg.org/ebooks/2600": {
-  "fails": 2,
-  "lastDay": "2026-11-27"
- },
- "https://www.gutenberg.org/ebooks/1259": {
-  "fails": 2,
-  "lastDay": "2026-11-27"
- },
- "https://www.gutenberg.org/ebooks/1232": {
-  "fails": 2,
-  "lastDay": "2026-11-27"
- },
- "https://www.gutenberg.org/ebooks/3207": {
-  "fails": 2,
-  "lastDay": "2026-11-27"
- },
- "https://www.gutenberg.org/ebooks/23": {
-  "fails": 2,
-  "lastDay": "2026-11-27"
- },
- "https://www.gutenberg.org/ebooks/25344": {
-  "fails": 2,
-  "lastDay": "2026-11-27"
- },
- "https://www.poetryfoundation.org/": {
+ "https://www.scribus.net/": {
   "fails": 1,
-  "lastDay": "2026-11-27"
+  "lastDay": "2026-11-28"
  },
- "https://learn.mongodb.com/": {
+ "https://www.eclipse.org/": {
   "fails": 1,
-  "lastDay": "2026-11-27"
+  "lastDay": "2026-11-28"
  }
 }
